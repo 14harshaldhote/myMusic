@@ -1,8 +1,20 @@
 import React from 'react';
 import { FcGoogle } from 'react-icons/fc';
 import { IoLogoGithub } from 'react-icons/io5';
+import {app} from './config/firebase.config';
+import {getAuth, GoogleAuthPovider} from 'firebase/auth';
+
 
 const Login = () => {
+
+
+  const loginwithgogle = async () => {
+
+
+  }
+
+
+
   return (
     <div className="relative w-screen h-screen">
       <div className="absolute inset-0 bg-darkOverlay flex items-center justify-center p-4">
